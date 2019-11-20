@@ -27,7 +27,7 @@ public class Parse {
 
             // TODO : get the "wind" attribute as an Wind object
            
-            Wind wind =  objectMapper.convertValue(root.get("weather"), Weather[].class);
+            Wind wind =  objectMapper.convertValue(root.get("wind"), Wind[].class);
 
             // TODO : get the "weather" attribute as an array of Weather objects
             Weather[] weathers = {};
